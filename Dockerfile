@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8080
 
 # Start Streamlit using Cloud Run's PORT
-CMD ["streamlit", "run", "task_final.py", "--server.port=8080", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "performance_final_10.py", "--server.port=8080", "--server.address=0.0.0.0"]
